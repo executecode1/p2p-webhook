@@ -18,7 +18,7 @@
 ## 📦 インストール
 
 ```bash
-npm install axios express
+npm install axios express p2p-webhook
 ```
 
 ※ `crypto` はNode.js標準モジュールです
@@ -30,7 +30,7 @@ npm install axios express
 ### 1. インスタンス作成
 
 ```js
-const P2PWebhook = require('./P2PWebhook');
+const P2PWebhook = require('P2PWebhook');
 
 const webhook = new P2PWebhook({
   id: 'serverA',
